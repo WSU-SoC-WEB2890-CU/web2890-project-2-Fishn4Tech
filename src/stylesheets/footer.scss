@@ -1,0 +1,15 @@
+.footer-row {
+  gap: 0.5rem; // adds horizontal space between columns
+}
+
+.footer-logo-img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 3rem;
+}
+
+@media (min-width: 768px) {
+  .footer-logo-img {
+    margin-right: 2rem; // adds spacing between logo and columns on medium+ screens
+  }
+}
