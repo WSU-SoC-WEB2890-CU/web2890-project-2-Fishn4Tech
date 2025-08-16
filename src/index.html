@@ -1,28 +1,365 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Magical Fingers Piano and Voice Studio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="index,follow" />
+    <meta name="description" content="TODO: Project 2 ..." />
 
-<head>
-  <meta charset="utf-8">
-  <title>WEB 2890 - Project 2</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="robots" content="index,follow">
-  <meta name="description" content="TODO: Project 2 ...">
+    <link rel="stylesheet" href="./stylesheets/main.scss" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=piano" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="./stylesheets/main.scss">
-</head>
+  </head>
 
-<body>
-  <!-- Your HTML goes here -->
-  <h1 class="display-2 text-center my-5 py-5">
-    <span class="d-block py-5 mt-5">
-      <i class="bi bi-filetype-html text-primary"></i> / 
-      <i class="bi bi-filetype-css text-danger"></i> / 
-      <i class="bi bi-filetype-js text-success"></i>
-    </span>
+  <body>
+
+    <header>
+      
+    <header>
+  
+  <div class="container-fluid bg-dark fixed-top">
+    <div class="d-flex justify-content-lg-end justify-content-center align-items-center py-2 px-3">
+      <h5 class="text-light mb-0 me-3">Sign up for a trial lesson</h5>
+      <button type="button" class="btn btn-outline-success bg-secondary btn-sm px-3">Sign Up</button>
+    </div>
+  </div>
+
+  
+  <nav class="navbar navbar-expand-lg navbar-dark bg-secondary fixed-top" style="top: 40px;">
+    <div class="container-fluid">
+      <a class="navbar-brand d-flex align-items-center" href="./index.html">
+        <img src="./images/logo.png" alt="Studio logo" class="studio-logo me-2"/>
+        <span class="fs-5 mb-0">Magical Fingers Piano & Voice Studio</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link px-3 py-2 rounded hover-highlight">
+              <span class="material-icons header-icon d-block mx-auto mb-1">home</span>
+              Home
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle px-3 py-2 rounded hover-highlight" href="/piano.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <span class="material-icons header-icon d-block mx-auto mb-1">piano</span>
+              Piano
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark">
+              <li><a class="dropdown-item" href="#">Simply Music</a></li>
+              <li><a class="dropdown-item" href="#">Goals</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle px-3 py-2 rounded hover-highlight" href="/voice.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <span class="material-icons header-icon d-block mx-auto mb-1">mic_external_on</span>
+              Voice
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark">
+              <li><a class="dropdown-item" href="#">Simply Music</a></li>
+              <li><a class="dropdown-item" href="#">Goals</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a href="/about.html" class="nav-link px-3 py-2 rounded hover-highlight">
+              <span class="material-icons header-icon d-block mx-auto mb-1">music_note</span>
+              Teacher
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="/contact.html" class="nav-link px-3 py-2 rounded hover-highlight">
+              <span class="material-icons header-icon d-block mx-auto mb-1">contact_page</span>
+              Contact
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+
+    <main>
+
+    <section class="hero p-5">
+      <div class="container-fluid w-75">
+       <div class="row g-5 text-center align-items-start">
+        <div class="col-md-4">
+           <div class="d-flex flex-column h-100">   
+            <h5 class="mb-3 fs-3">Simply Music Method</h5>
+            
+            <div class="ratio ratio-1x1 mb-3"> 
+          <img src="images/rohit-tandon-WYLcSbumHfg-unsplash.jpg"
+               class="w-100 h-100 rounded shadow object-fit-cover" alt="Piano lesson" loading="lazy">
+               </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+           <div class="d-flex flex-column h-100">
+            <h5 class="mb-3 fs-3">Natural Voice Flow</h5>
+            <div class="ratio ratio-1x1 mb-3"> 
+          <img src="images/Asset 4.png"
+               class="w-100 h-100 rounded shadow object-fit-cover" alt="Singing lesson" loading="lazy">
+            </div>
+        </div>
+        </div>
+        <div class="col-md-4">  
+           <div class="d-flex flex-column h-100 text-center"> 
+            <h5 class="mb-3 fs-3 ">Creative Expression</h5>
+            <div class="ratio ratio-1x1 mb-3"> 
+          <img src="images/301871805_202232392152146_1416197958513612159_n.jpg"
+               class="w-100 h-100 rounded shadow object-fit-cover" alt="Singing lesson" loading="lazy">
+            </div>
+          </div>
+       </div>
+      </div>
+      </div>
     
-    Project 2: A multiple-page project of your choosing.
-  </h1>
+     <div class="container text-secondary">
+  <div class="row align-items-center">
+    
+   
+    <div class="col-md-8">
+      <h2 class="fw-bold mb-3 text-start">
+        <p><i class="bi bi-check2-square me-4"></i>Want to play the piano with ease?</p>
+        <p><i class="bi bi-check2-square me-4"></i>Want to sing with confidence and a natural flow?</p>
+      </h2>
+      <p class="mb-3 fs-4">
+        <strong>Welcome to my studio</strong>—where music comes alive! I provide a supportive, creative
+        environment where you can learn alongside others, grow your skills, and express yourself musically.
+      </p>
+      <p class="mb-4 fs-4 text-start">
+        My goal is to help every student experience the joy and excitement of music right from the start—while
+        nurturing their creativity and self-expression.
+      </p>
+      <p class="fs-4 text-start">
+        <em>Explore the amazing programs under the Piano and Voice tabs, and let’s make music together!</em>
+      </p>
+    </div>
 
-  <script type="module" src="./javascripts/main.js"></script>
-</body>
+    
+    <div class="container col-md-4 text-center">
+      <div class="d-flex flex-column gap-3 w-75 ms-5">
+        
+        
+        <button class="btn btn-highlight btn-lg w-100 fs-3 ps-5 d-flex mx-auto my-4">
+          <bold>Play Piano Now!</bold><span class="material-icons m-2 fs-3">contact_page</span>
+        </button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+      </div> 
+</section>
+
+<section class="container-fluid w-75 my-5 ">
+  <div class="row row-cols-1 row-cols-md-2 g-5">
+  <div class="col p-5 rounded shadow bg-white">
+    <div class="card">
+      <img src="images/nick-fewings-0H66J8J_uIk-unsplash.jpg" class="card-img-top" alt="piano keys">
+      <div class="card-body">
+        <h4 class="card-title text-center fs-3">Music Lessons for all Ages and Abilities <i class="bi bi-check2-square"></i></h4>
+        <p class="card-text">Simply Music Piano Lessons are 
+for people of all ages; Even people 
+with disabilities are more than 
+welcome and will enjoy learning to play the piano using the Simply Music Method.</p>
+      </div>
+      <button type="button" class="btn btn-dark btn-lg">
+          Piano <i class="bi bi-arrow-right-circle"></i>
+        </button>
+    </div>
+  </div>
+  <div class="col p-5 rounded shadow bg-white">
+    <div class="card">
+      <img src="images/bogomil-mihaylov-ekHSHvgr27k-unsplash.jpg" class="card-img-top object-fit-cover" alt="...">
+      <div class="card-body">
+        <h4 class="card-title text-center fs-3">Unlock your Natural Voice <i class="bi bi-check2-square"></i></h4>
+        <p class="card-text">When you take Voice Lessons at my 
+studio you learn how to enjoy your 
+singing voice. 
+
+Music Lessons enhance and help develop cognitive skills that will in turn help you though out your life.  
+
+Come try voice lessons and find
+your inner beauty; unlock and free your voice!</p>
+      </div>
+      <button type="button" class="btn btn-dark btn-lg">
+          Voice <i class="bi bi-arrow-right-circle ms-2"></i>
+        </button>
+    </div>
+  </div>
+  
+</div>
+</section>
+
+<section>
+     <div class="container-fluid w-75 col-xl-10 col-xxl-8 p-5 bg-highlight shadow-lg mb-5">
+  <div class="row align-items-top">
+
+    <!-- Image -->
+    <div class="col-lg-5 mb-4 mb-lg-0">
+      <img src="./images/instructor.jpg" alt="Instructor" class="img-fluid shadow-lg rounded align-items-center">
+    </div>
+
+    <!-- Text -->
+    <div class="col-lg-6 offset-lg-1 text-center text-lg-start">
+      <div class="mx-auto" style="max-width: 90%;">
+        <h1 class="display-4 fw-bold lh-1 text-light opacity-75 mb-3">Hey, I'm Maggie.</h1>
+        <p class="lead mb-3">From a young age, I have been deeply passionate about music.</p>
+
+        <p>
+          <strong>Piano:</strong> When I started learning traditional methods of piano instruction they did not resonate with me. Later, I happily discovered Simply Music— a highly effective and enjoyable approach to learning piano that teaches playing from the very first lesson. This method allows students to experience the joy of making music immediately.
+        </p>
+
+        <p>
+          <strong>Voice Training:</strong> I emphasize a natural approach that encourages students to use their innate abilities to create beautiful and authentic music. I cultivated my love for singing while studying with John Huntington for four years and Martha Glissmeyer for a little more than 2 years.
+        </p>
+
+        <p class="fst-italic">
+          I have been professionally teaching voice since 2010 and piano since 2011. It is my sincere privilege to guide students in developing their musical skills and creativity through these proven methods.
+        </p>
+      </div>
+      <button class="w-50 btn btn-lg btn-primary" type="submit">Continue Reading<i class="bi bi-arrow-right-circle px-2"></i></button></div> 
+    </div>
+
+  </div>
+
+
+
+       
+ 
+
+
+ </div>
+  </section>
+
+<section class="container-fluid bg-dark outer-container">
+  <div class="row justify-content-center" >
+    <div class="p-4 rounded-5 ">
+    <h2 class="text-center fs-1 students text-highlight mb-4 pb-5">What My Amazing Students Are Saying...</h2>
+
+    <div class="container shadow-box p-4 shadow-lg rounded-5 bg-secondary">
+      <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+
+       
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0" 
+                  class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1" 
+                  aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="2" 
+                  aria-label="Slide 3"></button>
+        </div>
+
+        
+        <div class="carousel-inner bg-light">
+          
+          
+          <div class="carousel-item active">
+            <div class="d-flex flex-column align-items-center text-center flex-md-row">
+              <img src="./images/JennyandJustin.jpg" alt="Jenny & Justin" 
+                   class="me-md-4 mb-3 mb-md-0" 
+                   style="width: 200px; height: 200px; object-fit: cover;">
+              <div>
+                <blockquote class="blockquote mb-0">
+                 <h4 class="display-4">Jenny & Justin</h4>  
+                  <p>They are thrilled with how many songs they know and the type of songs they are learning. It's been a fun journey learning along with them as they are now starting to create their own songs. </p>
+                </blockquote>
+              </div>
+            </div>
+          </div>
+
+          
+          <div class="carousel-item">
+            <div class="d-flex flex-column align-items-center text-center flex-md-row">
+              <img src="./images/student2.jpg" alt="David L." 
+                   class="rounded-5 me-md-4 mb-3 mb-md-0" 
+                   style="width: 200px; height: 200px; object-fit: cover;">
+              <div>
+                <blockquote class="blockquote mb-0">
+                   <h4 class="display-4">David L.</h4>
+                  <p>"My singing has improved so much in just a month."</p>
+                 
+                </blockquote>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="d-flex flex-column flex-md-row align-items-center text-center">
+              <img src="./images/student3.jpg" alt="Emily R." 
+                   class="rounded-5 me-md-4 mb-3 mb-md-0" 
+                   style="width: 200px; height: 200px; object-fit: fill;">
+              <div>
+                <blockquote class="blockquote mb-0">
+                  <h4 class="display-4">Emily R.</h4>
+                  <p>"Friendly, patient, and incredibly skilled teacher."</p>
+                  
+                </blockquote>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+
+         <div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+        </div>
+
+      </div>
+    </div>
+
+</section>
+</main>
+
+
+  <footer class="container-fluid mt-5"> 
+    <div class="row align-items-start bg-secondary footer-row"> 
+    
+        <div class="col-6 col-md-3 mb-2">
+         <img src="./images/logo.png" alt="footer-logo" class="footer-logo-img" >
+        </div>
+         <div class="col-6 col-md-1 m-5"> <h5>Section</h5> <ul class="nav flex-column">
+             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li> 
+             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li> 
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li> 
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li> </ul>
+             </div>
+              <div class="col-6 col-md-2 my-5"> <h5>Section</h5> 
+                <ul class="nav flex-column"> 
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li> 
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+                   <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li> 
+                   <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li> 
+                   <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li> </ul> 
+                  </div> 
+                  <div class="col-6 col-md-3 my-5"> 
+                    <form> <h5>Subscribe to our newsletter</h5> <p>Monthly digest of what's new and exciting from us.</p> 
+                      <div class="d-flex flex-column w-100 gap-3"> <label for="newsletter1" class="visually-hidden">Email address</label> 
+                        <input id="newsletter1" type="email" class="form-control" placeholder="Email address"> <button class="btn btn-primary" type="button">Subscribe</button> </div> </form>
+                       </div>
+                       </div>
+                        <div class="text-center py-4 my-4 border-top"><p>&copy; 2025 Musical Fingers PVS All rights reserved.</p> </div> </footer>    
+   
+    <script type="module" src="./javascripts/main.js"></script>
+  </body>
 </html>

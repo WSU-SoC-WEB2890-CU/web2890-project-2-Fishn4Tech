@@ -1,0 +1,24 @@
+.studio-logo {
+  height: 100px;
+  width: auto;
+  margin-left: 3rem;
+  margin-bottom: 0.5rem;
+  @media (max-width: 768px) {
+    max-height: 70px;
+  }
+}
+
+.hover-highlight {
+  transition: background-color 0.3s;
+
+  &:hover {
+    background-color: $highlight;
+    text-decoration: none;
+  }
+}
+
+.header-icon {
+  font-size: 40px !important;
+  line-height: 1;
+  color: $primary !important;
+}
