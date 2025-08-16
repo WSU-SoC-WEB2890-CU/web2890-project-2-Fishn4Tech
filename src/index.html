@@ -18,86 +18,83 @@
 
     <header>
       
-    <div class="fixed-top">
-        <div class="container-fluid bg-dark px-5">
-          <div class="col-lg-12 d-flex justify-content-lg-end justify-content-center align-items-center">
-            <span class="text-light fs-5 my-3 px-3"><h5>Sign up for a trial lesson</h5></span>
-            <button type="button" class="btn btn-outline-success bg-secondary btn-sm px-3">Sign Up</button>
-          </div>
-        </div>
-        <nav class="navbar navbar-expand-lg bg-secondary">
-          <div class="container-fluid">
-          <a href="./index.html" class="d-flex navbar-brand align-items-center">
-            <img src="./images/logo.png" alt="Studio logo" class="studio-logo"/>
-            <h1 class="ms-2 mb-0"> Magical Fingers Piano & Voice Studio</h1></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown">
+    <header>
+  <!-- Top Bar -->
+  <div class="container-fluid bg-dark">
+    <div class="d-flex justify-content-lg-end justify-content-center align-items-center py-2 px-3">
+      <h5 class="text-light mb-0 me-3">Sign up for a trial lesson</h5>
+      <button type="button" class="btn btn-outline-success bg-secondary btn-sm px-3">Sign Up</button>
+    </div>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-secondary fixed-top" style="top: 40px;">
+    <div class="container-fluid">
+      <a class="navbar-brand d-flex align-items-center" href="./index.html">
+        <img src="./images/logo.png" alt="Studio logo" class="studio-logo me-2"/>
+        <span class="fs-5 mb-0">Magical Fingers Piano & Voice Studio</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      </div>
 
-   
-            <div class="collapse navbar-collapse px-4" id="navbarNavDarkDropdown">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a href="index.html" class="nav-link px-3 py-2 rounded hover-highlight"
-                ><span class="material-icons header-icon d-block mx-auto mb-1">home</span>Home</a
-              >
-            </li>
-            
-            
-            <li class="nav-item dropdown">
-             
-          <a class="nav-link dropdown-toggle px-3 py-2 rounded hover-highlight" href="/piano.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            <span class="material-icons header-icon d-block mx-auto mb-1">piano</span>
-            Piano
-          </a>
-          <ul class="dropdown-menu dropdown-menu-dark">
-            <li><a class="dropdown-item" href="#">Simply Music</a></li>
-            <li><a class="dropdown-item" href="#">Goals</a></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
-        </li>
-       
-            <li class="nav-item dropdown">
-             
-          <a class="nav-link dropdown-toggle px-3 py-2 rounded hover-highlight" href="/voice.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            <span class="material-icons header-icon d-block mx-auto mb-1">mic_external_on</span>Voice</a>
-          <ul class="dropdown-menu dropdown-menu-dark">
-            <li><a class="dropdown-item" href="#">Simply Music</a></li>
-            <li><a class="dropdown-item" href="#">Goals</a></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
-        </li>
-            
-            <li class="nav-item">
-              <a href="/about.html" class="nav-link px-3 py-2 rounded hover-highlight"
-                ><span class="material-icons header-icon d-block mx-auto mb-1">music_note</span>Teacher</a
-              >
-            </li>
-            <li class="nav-item">
-              <a href="/contact.html" class="nav-link px-3 py-2 rounded hover-highlight"
-                ><span class="material-icons header-icon d-block mx-auto mb-1" size="">contact_page</span>Contact</a
-              >
-            </li>
-          </ul>
-          </div>
-        </div>
-        </nav>
-     
-        
-       
-       
-      
-    </header>
+      <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link px-3 py-2 rounded hover-highlight">
+              <span class="material-icons header-icon d-block mx-auto mb-1">home</span>
+              Home
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle px-3 py-2 rounded hover-highlight" href="/piano.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <span class="material-icons header-icon d-block mx-auto mb-1">piano</span>
+              Piano
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark">
+              <li><a class="dropdown-item" href="#">Simply Music</a></li>
+              <li><a class="dropdown-item" href="#">Goals</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle px-3 py-2 rounded hover-highlight" href="/voice.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <span class="material-icons header-icon d-block mx-auto mb-1">mic_external_on</span>
+              Voice
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark">
+              <li><a class="dropdown-item" href="#">Simply Music</a></li>
+              <li><a class="dropdown-item" href="#">Goals</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a href="/about.html" class="nav-link px-3 py-2 rounded hover-highlight">
+              <span class="material-icons header-icon d-block mx-auto mb-1">music_note</span>
+              Teacher
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="/contact.html" class="nav-link px-3 py-2 rounded hover-highlight">
+              <span class="material-icons header-icon d-block mx-auto mb-1">contact_page</span>
+              Contact
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
 
     <main>
 
     <section class="hero p-5">
-      <div class="container-fluid w-75 h-25 my-5">
+      <div class="container-fluid w-75">
        <div class="row g-5 text-center align-items-start">
         <div class="col-md-4">
            <div class="d-flex flex-column h-100">   
-            <h5 class="mb-3 fs-2">Simply Music Method</h5>
+            <h5 class="mb-3 fs-3">Simply Music Method</h5>
             
             <div class="ratio ratio-1x1 mb-3"> 
           <img src="images/rohit-tandon-WYLcSbumHfg-unsplash.jpg"
@@ -107,7 +104,7 @@
         </div>
         <div class="col-md-4">
            <div class="d-flex flex-column h-100">
-            <h5 class="mb-3 fs-2">Natural Voice Flow</h5>
+            <h5 class="mb-3 fs-3">Natural Voice Flow</h5>
             <div class="ratio ratio-1x1 mb-3"> 
           <img src="images/Asset 4.png"
                class="w-100 h-100 rounded shadow object-fit-cover" alt="Singing lesson" loading="lazy">
@@ -115,8 +112,8 @@
         </div>
         </div>
         <div class="col-md-4">  
-           <div class="d-flex flex-column h-100"> 
-            <h5 class="mb-3 fs-2">Creative Expression</h5>
+           <div class="d-flex flex-column h-100 text-center"> 
+            <h5 class="mb-3 fs-3 ">Creative Expression</h5>
             <div class="ratio ratio-1x1 mb-3"> 
           <img src="images/301871805_202232392152146_1416197958513612159_n.jpg"
                class="w-100 h-100 rounded shadow object-fit-cover" alt="Singing lesson" loading="lazy">
@@ -165,7 +162,7 @@
       </div> 
 </section>
 
-<section class="container-fluid  w-75 my-5 ">
+<section class="container-fluid w-75 my-5 ">
   <div class="row row-cols-1 row-cols-md-2 g-5">
   <div class="col p-5 rounded shadow" style="background-color: #f8f9fa;">
     <div class="card">
